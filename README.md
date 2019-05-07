@@ -1,10 +1,10 @@
 # Twitter Sentiment Analysis using FastText, Elasticsearch, Kibana
 
-This project contains all the code necessary to reproduce Twitter sentiment analysis prediction using FastText library. 
+This project contains all the code necessary to reproduce Twitter sentiment prediction using FastText library. 
 
 In this project we employ an open source twitter dataset collection containing 1.6 mil tweets (see https://www.kaggle.com/kazanova/sentiment140). This dataset is used for creating a binary classfication model using FastText. 
 
-The output given model predicts newly incoming tweets and index tweet's data with the sentiment score to Elasticsearch for data visualization using Kibana inbuilt dashboard.
+The output given model predicts newly incoming tweets and index tweet's data with the sentiment score to Elasticsearch for data visualization using Kibana builtin dashboard.
 
 Required libraries:
 ```
